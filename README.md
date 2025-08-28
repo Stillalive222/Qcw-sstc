@@ -31,7 +31,7 @@ The build combines:
   <img src="spark1.jpg" alt="Spark 1" width="400">
   <img src="spark2.jpg" alt="Spark 2" width="400">
   <img src="spark3.jpg" alt="Spark 3" width="400">
-  <img src="spark4.jpg" alt="Spark 4" width="400">
+  <img src="spark4.jpg" alt="Spark 4"
 </p>
 
 ### Demo Video
@@ -43,7 +43,7 @@ The build combines:
 
 ### Schematics
 <p align="center">
-  <b>SSTC V1 Schematic:</b> <a href="sstcv1.sch">KiCad Source</a> | <a href="sstcv1pcb.png">PCB Layout</a><br>
+  <b>SSTC V1 Schematic:</b> <a href="sstcv1.sch">KiCad Source</a> | <a href="sstcv1pcb.pcb">PCB Layout</a><br>
   <b>Buck Converter:</b> <a href="buck.sch">KiCad Source</a> | <a href="bucksch.pdf">PDF Schematic</a>
 </p>
 

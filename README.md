@@ -32,7 +32,6 @@ The build combines:
   <img src="spark2.jpg" alt="Spark 2" width="400">
   <img src="spark3.jpg" alt="Spark 3" width="400">
   <img src="spark4.jpg" alt="Spark 4" width="400">
-  <img src="spark5.jpg" alt="Spark 5" width="400">
 </p>
 
 ### Demo Video

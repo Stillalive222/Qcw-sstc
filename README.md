@@ -1,7 +1,7 @@
 # QCW SSTC – Perfboard Driver, ZVS Step-Up & Arduino-Controlled Buck
 
 ## Description
-This project demonstrates a **Quasi-Continuous Wave Solid State Tesla Coil (QCW SSTC)** implementation, inspired by and based on the [QCW SSTC design thread on High Voltage Forum](https://highvoltageforum.net/index.php?topic=1412.0). The QCW technique uses a **linearly ramped bus voltage** to produce long, sword-like arcs.  
+This project demonstrates a **Quasi-Continuous Wave Solid State Tesla Coil (QCW SSTC)** implementation, inspired by and based on the [Low Voltage DC Interrupted SSTC's design thread on High Voltage Forum](https://highvoltageforum.net/index.php?topic=1412.0). The QCW technique uses a **linearly ramped bus voltage** to produce long, sword-like arcs.  
 
 The build combines:  
 1. **SSTC V1 Driver** – Assembled on perfboard/zero PCB, based on the HVF thread above.  
@@ -17,22 +17,41 @@ The build combines:
 - Long, thin, QCW-style spark output  
 
 ## Hardware & Files
-- `buck_stage.sch` – KiCad schematic for buck stage  
-- `buck_stage.pdf` – Printable schematic  
+- `sstcv1.sch` – KiCad schematic for SSTC driver  
+- `sstcv1pcb.png` – Perfboard layout / PCB visualization  
+- `buck.sch` – KiCad schematic for buck converter  
+- `bucksch.pdf` – Printable PDF schematic  
 - `sstc_driver_notes.pdf` – Notes & wiring for SSTC driver  
 - ZVS driver: standard Mazilli design (generic image included)  
 
 ## Media
 
 ### Tesla Coil Sparks
-![Spark 1](spark1.jpg)  
-![Spark 2](spark2.jpg)  
-![Spark 3](spark3.jpg)  
-![Spark 4](spark4.jpg)   
+<p align="center">
+  <img src="spark1.jpg" alt="Spark 1" width="400">
+  <img src="spark2.jpg" alt="Spark 2" width="400">
+  <img src="spark3.jpg" alt="Spark 3" width="400">
+  <img src="spark4.jpg" alt="Spark 4" width="400">
+  <img src="spark5.jpg" alt="Spark 5" width="400">
+</p>
 
 ### Demo Video
-[![Demo Video](spark1.jpg)](demo.mp4)  
-*(Click thumbnail to watch the local demo.mp4 in repo)*  
+<p align="center">
+  <a href="demo.mp4">
+    <img src="spark1.jpg" alt="Demo Video" width="400">
+  </a>
+</p>
+
+### Schematics
+<p align="center">
+  <b>SSTC V1 Schematic:</b> <a href="sstcv1.sch">KiCad Source</a> | <a href="sstcv1pcb.png">PCB Layout</a><br>
+  <b>Buck Converter:</b> <a href="buck.sch">KiCad Source</a> | <a href="bucksch.pdf">PDF Schematic</a>
+</p>
+
+### ZVS Driver Reference
+<p align="center">
+  <img src="zvs_generic.png" alt="ZVS Driver" width="400">
+</p>
 
 ## Build Notes
 Perfboard assembly required careful routing to minimize parasitics and avoid cross-talk. The buck stage was tuned to produce a smooth rising DC bus voltage into the main SSTC driver. Grounding, decoupling, and lead lengths were optimized to handle high dV/dt switching. The Arduino-controlled ramp ensures quality, sword-like arcs.  

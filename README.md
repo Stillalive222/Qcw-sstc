@@ -28,8 +28,7 @@ The build combines:
 ![Spark 1](spark1.jpg)  
 ![Spark 2](spark2.jpg)  
 ![Spark 3](spark3.jpg)  
-![Spark 4](spark4.jpg)  
-![Spark 5](spark5.jpg)  
+![Spark 4](spark4.jpg)   
 
 ### Demo Video
 [![Demo Video](spark1.jpg)](demo.mp4)  

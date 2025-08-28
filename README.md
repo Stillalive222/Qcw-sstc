@@ -43,8 +43,8 @@ The build combines:
 
 ### Schematics
 <p align="center">
-  <b>SSTC V1 Schematic:</b> <a href="sstcv1.sch">KiCad Source</a> | <a href="sstcv1pcb.pcb">PCB Layout</a><br>
-  <b>Buck Converter:</b> <a href="buck.sch">KiCad Source</a> | <a href="bucksch.pdf">PDF Schematic</a>
+  <b>SSTC V1 Schematic:</b> <a href="sstcv1.kicad_sch">KiCad Source</a> | <a href="sstcv1pcb.kicad_pcb">PCB Layout</a><br>
+  <b>Buck Converter:</b> <a href="buck.kicad_sch">KiCad Source</a> | <a href="bucksch.pdf">PDF Schematic</a>
 </p>
 
 ### ZVS Driver Reference
